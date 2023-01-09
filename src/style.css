@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+  background-color: green;
+  margin: auto;
+  margin-top: 30px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  width: 400px;
+  margin-bottom: 50px;
+  height: 600px;
+  border-radius: 100px;
+}
+
+#playing-CardShape {
+  height: 30%;
+  font-size: 7em;
+  text-align: left;
+  border: white;
+}
+
+#playing-CardShape1 {
+  height: 30%;
+  font-size: 7em;
+  text-align: right;
+  border: white;
+}
+
+#number {
+  height: 40%;
+  font-size: 9em;
+  border: white;
+}
+
+strong {
+  font-size: 2em;
+}
